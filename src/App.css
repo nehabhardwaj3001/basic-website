@@ -1,0 +1,280 @@
+.App {
+  text-align: center;
+}
+
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 100px;
+  color:white;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.links{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width:40%;
+  color: aliceblue;
+}
+
+.subscribe{
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+  padding: 50px;
+}
+
+.nav,
+.nav-1,
+.nav-2,
+.nav-3,
+.nav-4,
+.nav-5,
+.nav-6{
+  color: aliceblue;
+  text-decoration: none;
+}
+
+
+.navigation-menu{
+  justify-content: left;
+  align-items: initial;
+}
+
+.page-1{
+  background-image: url(https://images.firstpost.com/wp-content/uploads/2021/06/NH-212_through_Bandhipur_forest_roads_in_Kerala_India_opt.jpg);
+  background-size: cover;
+  height: 100vh;
+  background-color:darkgray;
+  padding: 20px;
+  margin-bottom: 100px;
+  color: white;
+}
+
+.learn-more{
+  margin: 20px;
+  padding: 20px 30px;
+  border-radius: 30px;
+  background-color:	white;
+  font-size: 16px;
+  border: none;
+}
+
+.download-now{
+  margin: 20px;
+  padding: 20px 40px;
+  border-radius: 30px;
+  background-color:	#1449ac;
+  color: white;
+  font-size: 16px;
+  border: none;
+}
+
+.learn-more2{
+  margin: 5px;
+  padding: 5px 10px;
+  background-color:	white;
+}
+
+.cards1,
+.cards2,
+.cards3,
+.cards4,
+.subscribe{
+  display: flex;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.cards6{
+  display: flex;
+  margin-left: 10%;
+  margin-right: 15%;
+  justify-content: center;
+}
+
+.card-1,
+.card-2, 
+.card-3 {
+  border: 1px solid black;
+  border-radius: 2px;
+  margin: 10px;
+  padding: 48px 24px;
+  background-color:bisque;
+}
+
+.cards5{
+  background-color: blue;
+  display: flex;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.tb-1, 
+.tb-2{
+  margin: 5% 10%;
+  padding: 10px;
+  color: aliceblue;
+}
+
+.about{
+  margin-top:15px ;
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+.about,
+.our-services,
+.latest-news,
+.subscribe{
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.service{
+  text-align: justify;
+}
+
+.header{
+  margin: 180px;
+  margin-bottom: 7%;
+}
+
+.main-features,
+.about-us,
+.team-members,
+.testinomials,
+.our-services{
+  margin-bottom: 12%;
+}
+
+.tm-1,
+.tm-2, 
+.tm-3 {
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  background-color:bisque;
+}
+
+.tc-1,
+.tc-2, 
+.tc-3 {
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  background-color: white;
+  padding: 60px 48px 48px;
+}
+
+.os-1,
+.os-2, 
+.os-3 {
+  border: 1px solid rgb(243, 229, 229);
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  background-color:bisque;
+}
+.cards4{
+  margin: 0px 0px 48px;
+  padding: 0px 15px;
+}
+
+.ln-1,
+.ln-2, 
+.ln-3 {
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  background-color:bisque;
+}
+
+.s-1,
+.s-2, 
+.s-3 {
+  margin: 10px;
+  padding: 10px;
+}
+
+p{
+  font-size:medium;
+  /* font-style: italic; */
+ 
+}
+
+.testimonials{
+  background-color: crimson;
+  padding: 4%;
+  margin: 100px 0;
+}
+
+.blue{
+  color: #8383ea;
+  text-align: left;
+}
+
+.blog-btn{
+  color: blue;
+  border: 1px solid blue;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+.light{
+  color:#17a2b8;
+  font-size: 20px;
+  margin: 0 20% 50px 20%;
+  font-family: sans-serif;
+}
+
+.subscribe{
+  background-color:rgb(211, 233, 253);
+  padding:2% 7%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.s-3{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+
+}
+
+.signup-btn{
+  background-color: rgb(238, 94, 94);
+}
+
+.heading{
+  font-family:  "Leto", sans-serif;
+  color: #272c30;
+  font-size: 32px;
+}
+
+.row{
+  display: flex;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .cards1,
+  .cards2,
+  .cards3,
+  .cards4,
+  .cards5,
+  .cards6,
+  .subscribe {
+    flex-direction: column;
+  }
+}
