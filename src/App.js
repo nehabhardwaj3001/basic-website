@@ -20,8 +20,8 @@ function App() {
           </div>
         </div>
       <div className='header'>
-        <h1> LAUNCH.YOUR.WEBSITE </h1>
-        <h2>Simple & Elegent One-Page WordPress Theme</h2><br></br>
+        <h1 className='heading1'> LAUNCH.YOUR.WEBSITE </h1>
+        <h2 className='heading2'>Simple & Elegent One-Page WordPress Theme</h2><br></br>
         <p>An elegent, easy-to-use, one-page WordPress theme for professional and businesses.</p>
         <p>Perfect to promote your projects, products or services.</p><br></br>
         <button className='learn-more'>Learn More</button>
