@@ -276,5 +276,11 @@ p{
   .cards6,
   .subscribe {
     flex-direction: column;
+  },
+  .heading1{
+    font-size: 31px;
+  },
+  .heading2{
+   font-size: 19.65px;
   }
 }
